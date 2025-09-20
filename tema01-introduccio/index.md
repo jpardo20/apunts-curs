@@ -1,5 +1,3 @@
-# Tema 1: Introducció
-
 En aquest tema veurem:
 - Què és un algoritme
 - Diferència entre **programació estructurada** i **orientada a objectes**

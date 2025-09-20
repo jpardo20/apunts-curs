@@ -1,4 +1,3 @@
-# Tema 2: Classes i Objectes
 
 Conceptes clau:
 - Classe, objecte, atribut, mètode
