@@ -1,19 +1,16 @@
-# Tema 1: Introducció
+---
+layout: default
+title: Tema 1 · Introducció
+nav_order: 10
+has_children: true
+---
 
+# Tema 1: Introducció
 En aquest tema veurem:
 - Què és un algoritme
-- Diferència entre **programació estructurada** i **orientada a objectes**
-- Exemple en Java
+- Programació **estructurada** vs **orientada a objectes**
+- Exemple bàsic en Java
 
-## Exemple en Java
-```java
-public class HolaMon {
-    public static void main(String[] args) {
-        System.out.println("Hola món!");
-    }
-}
-```
-
-## Objectius
-- Entendre el cicle d'execució d'un programa.
-- Introduir el concepte de compilació i execució.
+## Continguts
+- [1. Conceptes bàsics](./conceptes-basics)
+- [2. Exemple Java](./exemple-java)

@@ -1,23 +1,18 @@
-# Apunts del curs (Plantilla GitHub Pages)
+# Plantilla GitHub Pages — just-the-docs
 
-Aquesta és una plantilla mínima perquè publiquis els teus apunts com a **web** amb **GitHub Pages**.
+Aquesta plantilla usa el tema **just-the-docs** (menú lateral, cerca integrada i disseny net).
 
-## Ús
-1. Crea un repositori nou a GitHub i puja-hi aquest contingut.
-2. Ves a **Settings → Pages** i selecciona:
-   - **Source**: Branch `main`
-   - **Folder**: `/ (root)`
-3. Desa i obre la URL que et mostra GitHub (p. ex. `https://usuari.github.io/nom-repo/`).
+## Com publicar
+1. Crea un repo nou i puja-hi aquest contingut a la branca `main`.
+2. A **Settings → Pages**:
+   - Source: `Deploy from a branch`
+   - Branch: `main` / folder: `/ (root)`
+3. Desa i obre la URL que et dona GitHub, p. ex. `https://usuari.github.io/apunts-curs/`.
 
-## Estructura
-- `index.md` — portada de la web
-- `tema01-introduccio/` — tema amb apunts i exemples
-- `tema02-classes/` — segon tema
-- `_config.yml` — configuració del tema Jekyll
+## Personalitza
+- Edita `_config.yml` ► `title`, `description`, `aux_links` i enllaços.
+- Afegeix pàgines i ordena-les amb `nav_order`.
+- Crea subseccions amb `has_children: true` i `parent:` a les pàgines filles.
+- Estils personalitzats a `assets/css/custom.css`.
 
-## Personalització
-- Afegeix més carpetes `temaXX-...` amb el teu material.
-- Pots canviar el tema a `_config.yml` (p. ex. `just-the-docs`).
-
----
-> Fet per començar ràpid i sense complicacions.# apunts-curs
+> No cal `Gemfile` si només publiques amb GitHub Pages; el `remote_theme` ja funciona.

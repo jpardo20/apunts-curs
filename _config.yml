@@ -1,5 +1,16 @@
 title: "Apunts EDA"
-theme: minima
-# Optional: navbar links (edit/remove as needed)
-header_pages:
-   - index.md
+description: "Apunts del curs amb menú lateral, cerca i estil modern."
+remote_theme: just-the-docs/just-the-docs
+search_enabled: true
+logo:
+color_scheme: nil
+nav_external_links:
+  - title: "Repositori a GitHub"
+    url: "https://github.com/usuari/apunts-curs"
+aux_links:
+  "Obre el repo a GitHub":
+    - "https://github.com/usuari/apunts-curs"
+footer_content: "© {current_year} Apunts EDA — Publicat amb GitHub Pages i just-the-docs."
+markdown: kramdown
+kramdown:
+  input: GFM
